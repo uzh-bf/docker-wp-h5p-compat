@@ -1,4 +1,4 @@
-FROM bitnami/wordpress:5.2.1-debian-9-r9
+FROM bitnami/wordpress:5.3.0-debian-9-r9
 
 # ensure that h5p works correctly
 RUN echo "define('H5P_EMBED_URL_ALWAYS_AVAILABLE', true);" >> /opt/bitnami/wordpress/wp-config.php
